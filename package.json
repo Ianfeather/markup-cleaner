@@ -1,0 +1,41 @@
+{
+  "name": "markup-cleaner",
+  "description": "Headless pruning of unused classes",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ianfeather/markup-cleaner",
+  "author": {
+    "name": "Ian Feather",
+    "email": "info@ianfeather.co.uk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Ianfeather/markup-cleaner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ianfeather/markup-cleaner/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ianfeather/markup-cleaner/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bin": "bin/markup-cleaner.js",
+  "main": "lib/markup-cleaner",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-coffee": "*",
+    "grunt": "~0.3.17"
+  },
+  "keywords": [],
+  "dependencies": {
+    "optimist": "~0.3.5",
+    "async": "~0.1.22",
+    "cli-color": "~0.2.1"
+  }
+}
